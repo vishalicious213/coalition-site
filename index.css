@@ -67,3 +67,17 @@ main img {
     margin: 0 0 0 .5rem;
     text-transform: uppercase;
 }
+
+#history-content {
+    position: relative;
+}
+
+#history-content img {
+    width: 100%;
+}
+
+#history-text {
+    outline: 1px solid red;
+    position: absolute;
+    top: 1rem;
+}
