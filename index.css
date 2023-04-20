@@ -38,3 +38,32 @@ li:hover {
 main img {
     width: 100%;
 }
+
+/* HISTORY */
+
+#nav-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+#nav-2 ul {
+    color: black;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    border: 1px solid #697a98;
+    border-radius: 50%;
+}
+
+.logo-text p {
+    margin: 0 0 0 .5rem;
+    text-transform: uppercase;
+}
