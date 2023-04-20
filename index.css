@@ -4,6 +4,10 @@ body {
     box-sizing: border-box;
 }
 
+.background-img {
+    width: 100%;
+}
+
 /* HEADER */
 
 header {
@@ -31,12 +35,6 @@ li {
 
 li:hover {
     cursor: pointer;
-}
-
-/* MAIN CONTENT */
-
-main img {
-    width: 100%;
 }
 
 /* HISTORY */
@@ -72,12 +70,12 @@ main img {
     position: relative;
 }
 
-#history-content img {
-    width: 100%;
+#history-container {
+    position: absolute;
+    top: 3rem;
+    padding: 0 15%;
 }
 
-#history-text {
-    outline: 1px solid red;
-    position: absolute;
-    top: 1rem;
+#history-title {
+    width: 22%;
 }
