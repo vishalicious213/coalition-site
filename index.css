@@ -91,7 +91,7 @@ li:hover {
 
 #carousel {
     position: absolute;
-    bottom: 0;
+    bottom: .25rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -114,14 +114,15 @@ li:hover {
 
 #team-container {
     position: absolute;
-    top: 3rem;
+    top: 0;
     width: 100%;
 }
 
 #team-header {
     display: flex;
     align-items: center;
-    padding: 0 15% 1rem;
+    padding: 1rem 15%;
+    background-color: white;
 }
 
 #team-title {
