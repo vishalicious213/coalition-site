@@ -4,13 +4,36 @@ body {
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
-    outline: 1px solid red;
+    width: 100%;
     position: absolute;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: .5rem;
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    color: white;
+}
+
+li {
+    margin: 0 1rem;
+    font-style: italic;
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+/* MAIN CONTENT */
 
 main img {
     width: 100%;
