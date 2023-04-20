@@ -170,3 +170,24 @@ table {
 .empty-row {
     height: 1rem;
 }
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .5rem 0;
+    background-color: #414f6a;
+    color: #697a98;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+
+#copyright {
+    text-transform: uppercase;
+}
