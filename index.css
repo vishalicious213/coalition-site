@@ -79,3 +79,19 @@ li:hover {
 #history-title {
     width: 22%;
 }
+
+/* CAROUSEL */
+
+#carousel {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: rgba(105, 125, 150, 0.5);
+}
+
+#carousel img {
+    width: 15%;
+    margin: .5%;
+}
