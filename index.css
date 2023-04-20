@@ -127,3 +127,15 @@ li:hover {
     background-color: #414f6a;
     padding: .25rem 15%;
 }
+
+.team-menu span {
+    padding: .25rem 1rem;
+    font-weight: 600;
+}
+
+.team-menu span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #414f6a;
+    background-color: #697a98;
+}
