@@ -85,6 +85,7 @@ li:hover {
 #carousel {
     position: absolute;
     bottom: 0;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 1rem 0;
@@ -105,6 +106,7 @@ li:hover {
 #team-container {
     position: absolute;
     top: 3rem;
+    width: 100%;
 }
 
 #team-header {
