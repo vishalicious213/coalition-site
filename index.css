@@ -228,10 +228,34 @@ footer {
 
 #mobile-nav {
     display: block;
+    text-align: end;
+    color: white;
+}
+
+#mobile-nav:hover {
+    cursor: pointer;
+    transform: scale(1.25);
 }
 
 #wide-nav {
     display: none;
+}
+
+#mobile-menu-items {
+    position: absolute;
+    right: 15.25%;
+    top: 2.5rem;
+    margin: 0;
+    text-align: end;
+}
+
+.display-none {
+    visibility: hidden;
+}
+
+.display-block {
+    visibility: visible;
+    display: block;
 }
 
 @media screen and (min-width: 800px) {
