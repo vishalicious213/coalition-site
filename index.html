@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
 </head>
 <body>
     <header>
@@ -70,30 +71,12 @@
                 <div id="history-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
             </div>
 
-            <div class="carousel-container">
-                <div class="slide">
-                    <img src="/img/carousel-1.png">
-                </div>
-
-                <div class="slide">
-                    <img src="/img/carousel-2.png">
-                </div>
-
-                <div class="slide">
-                    <img src="/img/carousel-1.png">
-                </div>
-
-                <div class="slide">
-                    <img src="/img/carousel-2.png">
-                </div>
+            <div id="carousel">
+                <img src="/img/carousel-1.png">
+                <img src="/img/carousel-2.png">
+                <img src="/img/carousel-1.png">
+                <img src="/img/carousel-2.png">
             </div>
-
-            <!-- <div id="carousel">
-                <img src="/img/carousel-1.png">
-                <img src="/img/carousel-2.png">
-                <img src="/img/carousel-1.png">
-                <img src="/img/carousel-2.png">
-            </div> -->
         </div>
     </section>
 
@@ -147,5 +130,18 @@
     </footer>
 
     <script src="/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $('#carousel').slick({
+            arrows: false,
+            // dots: true,
+            infinite: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        })
+    </script>
 </body>
 </html>
