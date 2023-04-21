@@ -104,17 +104,33 @@ li:hover {
 
 #carousel {
     position: absolute;
+    bottom: 2.25rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem;
+    background-color: rgba(105, 125, 150, 0.5);
+}
+
+#dots {
+    position: absolute;
     bottom: .25rem;
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 1rem 0;
     background-color: rgba(105, 125, 150, 0.5);
 }
 
-#carousel img {
-    width: 15%;
-    margin: .5%;
+.slick-dots li button { 
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 0 .25rem;
+} 
+
+.slick-list {
+    width: 60%;
 }
 
 /* TEAM */
